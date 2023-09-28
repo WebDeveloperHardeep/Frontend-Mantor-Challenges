@@ -1,0 +1,23 @@
+body {
+  background-color: #0a0c1b !important;
+}
+
+.pb {
+  padding: 150px;
+  padding-left: 20% !important;
+}
+
+p {
+  color: gray !important;
+}
+
+.card {
+  color: white;
+  width: 100% !important;
+  background-color: #1c1938 !important;
+  position: relative !important;
+}
+
+img {
+  position: absolute !important;
+}
