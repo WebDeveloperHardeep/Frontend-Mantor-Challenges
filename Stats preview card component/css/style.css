@@ -101,3 +101,11 @@ li {
 span {
   padding-right: 70px;
 }
+
+/* Add a media query for smartphones */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column; /* Change direction to stack elements vertically */
+    width: 100%; /* Make the card take up the full width */
+  }
+}
