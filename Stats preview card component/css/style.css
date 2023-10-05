@@ -108,4 +108,12 @@ span {
     flex-direction: column; /* Change direction to stack elements vertically */
     width: 100%; /* Make the card take up the full width */
   }
+  .image {
+    max-width: 100%;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+  }
 }
