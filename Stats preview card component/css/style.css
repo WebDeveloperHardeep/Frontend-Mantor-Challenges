@@ -62,10 +62,12 @@ h2 {
   padding-right: 7%;
 }
 p {
-  padding: 0px 110px 0px 7%;
-  margin-right: 10px;
-  font-weight: 700;
-  color: grey;
+    padding: 0px 37px 0px 37px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: grey;
 }
 
 strong {
@@ -104,56 +106,62 @@ span {
 
 /* Add a media query for smartphones */
 @media (max-width: 768px) {
-  body{
+  body {
     padding-top: 120px;
+    padding-bottom: 120px !important;
   }
   .card {
     flex-direction: column; /* Change direction to stack elements vertically */
-    width: 70%!important; 
+    width: 70% !important;
   }
   .image {
-    max-width: 100%!important;
+    flex: 1;
+    background-image: url(../images/image-header-mobile.jpg) !important;
+    border-radius: 10px;
+    max-width: 160% !important;
+    background-position: center;
     padding-bottom: 400px;
   }
 
   .image img {
-    width: 100%!important;
-    height: 100%!important;
+    width: 100% !important;
+    height: 100% !important;
   }
   .content {
     padding: 20px;
   }
 
   h2 {
-    font-size: 24px;
-    width: 48%;
-    margin-left:100px ;
+    font-size: 36px;
+    padding-left: 91px;
+    padding-right: 49px;
     text-align-last: center;
   }
 
   p {
-    padding: 0 86px; 
+    padding: 0px 32px;
+    padding-left: 96px;
+    font-size: 19px;
     line-height: 1.5;
-    margin-right: 49px; 
   }
 
   strong {
-    padding-left: 0;
+    padding-left: 115px;
     font-weight: bolder;
     font-size: 26px;
   }
   span {
-    padding-left: 62px; 
+    padding-left: 180px;
   }
 
   ul {
-    text-align: center; 
-    display: grid;
+    text-align: center;
+    display: table-caption;
+    line-height: 1.5;
   }
 
   li {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     margin-top: 20px;
   }
 }
-
